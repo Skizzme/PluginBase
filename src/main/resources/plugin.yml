@@ -1,0 +1,11 @@
+name: Base
+aliases: b
+version: 1.0
+author: base
+main: base.PluginBase
+description: description
+load: STARTUP
+
+commands:
+  command:
+    description: description
