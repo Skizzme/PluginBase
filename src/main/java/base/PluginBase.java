@@ -5,6 +5,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class PluginBase extends JavaPlugin {
 
+    public static PluginBase INSTANCE;
+
     @Override
     public void onEnable() {
         //Register Events
@@ -15,7 +17,7 @@ public class PluginBase extends JavaPlugin {
 
     @Override
     public void onLoad() {
-
+        INSTANCE = this;
     }
 
 }
